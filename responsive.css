@@ -1,0 +1,45 @@
+/* @media(){}
+@media (max-width: 900px) {
+  h1 {
+    background-color: yellow;
+    color: #000;
+  }
+  p {
+    color: #fff;
+    background-color: cadetblue;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    background-color: blueviolet;
+    color: red;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    background-color: black;
+    color: orange;
+  }
+  P {
+    display: none;
+  }
+} */
+
+@media (max-width: 768px) {
+  .item {
+    width: 48%;
+  }
+}
+@media (max-width: 576px) {
+  .item {
+    width: 100%;
+  }
+  body {
+    margin: 10px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
